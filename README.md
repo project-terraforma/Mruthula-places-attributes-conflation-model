@@ -2,7 +2,7 @@
 Project A: Places Attributes Conflation
 
 
-Project Workflow
+# Project Workflow
 1) Explore given dataset parquet 
     -observe the attributes + understand how it is structured
 2) Create golden dataset
@@ -18,7 +18,8 @@ Project Workflow
 
 
 
-STEP 1 - EXPLORE GIVEN DATASET
+
+# STEP 1 - EXPLORE GIVEN DATASET
 
 columns present in the dataset: ['id', 'base_id', 'sources', 'names', 'categories', 'confidence','websites', 'socials', 'emails', 'phones', 'brand', 'addresses','base_sources', 'base_names', 'base_categories', 'base_confidence','base_websites', 'base_socials', 'base_emails', 'base_phones','base_brand', 'base_addresses']
 

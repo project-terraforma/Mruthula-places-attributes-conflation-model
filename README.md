@@ -19,6 +19,7 @@ Project Workflow
 
 
 STEP 1 - EXPLORE GIVEN DATASET
+
 columns present in the dataset: ['id', 'base_id', 'sources', 'names', 'categories', 'confidence','websites', 'socials', 'emails', 'phones', 'brand', 'addresses','base_sources', 'base_names', 'base_categories', 'base_confidence','base_websites', 'base_socials', 'base_emails', 'base_phones','base_brand', 'base_addresses']
 
 source 1 = id (no prefix), source 2 = base_id (has prefix base)

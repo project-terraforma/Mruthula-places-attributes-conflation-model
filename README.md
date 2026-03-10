@@ -19,7 +19,7 @@ The goal is to evaluate how well a rule-based or ML-based attribute selection sy
 
 - Evaluating algorithm performance against the ground truth
 
-Exploring DSPy for ML-based attribute selection
+- Exploring DSPy for ML-based attribute selection
 
 ## Project Workflow
 ### Explore Given Dataset

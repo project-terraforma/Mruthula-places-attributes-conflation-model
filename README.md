@@ -39,3 +39,11 @@ confidence = how confident we are that the place actually exists (0 to 1)
 address = address of the business (potentially need to check if all components are present and if the address is complete?)
  * postcodes don’t all have consistent pattern (mix of #s and letters, so may have to group by location/area?)
 
+
+
+
+https://docs.google.com/spreadsheets/d/1cHw_81_H6qFIbxIOWbuwtnVEPTYy7FJj3x0jPNgw6Qo/edit?gid=990629450#gid=990629450 --- link to raw data reorganized and manual golden dataset created for project
+
+
+
+https://colab.research.google.com/drive/1GCtyLh8WI6Hp6zlTg5jJdmPh5D8Ow-IB?usp=sharing ---- link to Colab Notebook for DSPy ML Approach (still a work in progress, trying to get metrics up and running)

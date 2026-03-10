@@ -1,4 +1,11 @@
 # Mruthula Mohankumar: Place Attribute Conflation – Golden Dataset Construction & Evaluation
+
+Raw Data + Golden Dataset: 
+https://docs.google.com/spreadsheets/d/1cHw_81_H6qFIbxIOWbuwtnVEPTYy7FJj3x0jPNgw6Qo/edit?gid=990629450#gid=990629450
+
+DSPy Colab Notebook: 
+https://colab.research.google.com/drive/1GCtyLh8WI6Hp6zlTg5jJdmPh5D8Ow-IB?usp=sharing
+
 ## Project Overview
 
 This project focuses on creating a reliable ground-truth (Golden Dataset) to improve the accuracy of place attribute conflation across multiple datasets.
@@ -207,8 +214,3 @@ A Colab notebook is currently in progress for implementing this approach.
 
 
 ##### Resources
-Raw Data + Golden Dataset: 
-https://docs.google.com/spreadsheets/d/1cHw_81_H6qFIbxIOWbuwtnVEPTYy7FJj3x0jPNgw6Qo/edit?gid=990629450#gid=990629450
-
-DSPy Colab Notebook: 
-https://colab.research.google.com/drive/1GCtyLh8WI6Hp6zlTg5jJdmPh5D8Ow-IB?usp=sharing

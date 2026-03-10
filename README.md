@@ -1,4 +1,4 @@
-# Place Attribute Conflation – Golden Dataset Construction & Evaluation
+# Mruthula Mohankumar: Place Attribute Conflation – Golden Dataset Construction & Evaluation
 ## Project Overview
 
 This project focuses on creating a reliable ground-truth (Golden Dataset) to improve the accuracy of place attribute conflation across multiple datasets.
@@ -41,9 +41,9 @@ Two primary sources are provided for each record:
 * Source 2 - base_id ---- Attributes with base_ prefix
 
 #### Example:
-names vs base_names
-phones vs base_phones
-addresses vs base_addresses
+- names vs base_names
+- phones vs base_phones
+- addresses vs base_addresses
 
 
 #### Key Attributes
@@ -123,28 +123,22 @@ Indicators of reliable information include:
 Attribute-Level Labeling (Golden Dataset Format): This format allows models to learn how to choose between multiple sources.
 
 Example:
-
-Record_ID	Attribute	Selected_Value	Selected_Source	Correct?	Reason
-1001	Name	Starbucks	Yelp	TRUE	Cleanest canonical name
-1001	Phone	925-555-1000	Yelp	TRUE	Majority + matches official site
-1001	Website	https://www.starbucks.com
-	Google	TRUE	Valid formatted URL
-1001	Category	Coffee Shop	Yelp	TRUE	More specific than "Cafe"
+| Record_ID | Attribute | Selected_Value | Selected_Source | Correct? | Reason |
+| -------- | -------- | -------- | -------- | -------- | --------- |
+| 1001 | Name | Starbucks | Yelp | TRUE | Cleanest canonical name |
+| 1001 | Phone | 925-555-1000 | Yelp | TRUE | Majority + matches official site |
+| 1001 | Website | (https://www.starbucks.com) | Google | TRUE | Valid formatted URL |
+| 1001 | Category | Coffee Shop | Yelp | TRUE | More specific than "Cafe" |
 
 This format helps the ML model learn how to select attributes from competing sources.
 
-Attribute Selection Guidelines
-General Selection Principles
-
-Prefer official business website data
-
-Prefer majority agreement across sources
-
-Normalize formatting before comparison
-
-Verify conflicting values externally
-
-Record reasoning for each selection
+### Attribute Selection Guidelines
+## General Selection Principles: 
+- Prefer official business website data
+- Prefer majority agreement across sources
+- Normalize formatting before comparison
+- Verify conflicting values externally
+- Record reasoning for each selection
 
 Golden Record Pick Logic
 | Attribute | Scenario | Rule | Examples/Notes |

@@ -1,23 +1,23 @@
-Place Attribute Conflation – Golden Dataset Construction & Evaluation
-Project Overview
+#Place Attribute Conflation – Golden Dataset Construction & Evaluation
+#Project Overview
 
 This project focuses on creating a reliable ground-truth (Golden Dataset) to improve the accuracy of place attribute conflation across multiple datasets.
 
 The goal is to evaluate how well a rule-based or ML-based attribute selection system can determine the most accurate value for business place attributes when multiple sources provide conflicting or incomplete information.
 
-The workflow includes:
+##The workflow includes:
 
-Exploring the provided parquet dataset
+- Exploring the provided parquet dataset
 
-Understanding attribute structure and potential conflicts
+- Understanding attribute structure and potential conflicts
 
-Creating a manually verified Golden Dataset
+- Creating a manually verified Golden Dataset
 
-Defining attribute quality rules
+- Defining attribute quality rules
 
-Building a rule-based selection algorithm
+- Building a rule-based selection algorithm
 
-Evaluating algorithm performance against the ground truth
+- Evaluating algorithm performance against the ground truth
 
 Exploring DSPy for ML-based attribute selection
 

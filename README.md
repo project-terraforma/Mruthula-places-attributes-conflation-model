@@ -214,3 +214,11 @@ A Colab notebook is currently in progress for implementing this approach.
 
 
 ##### Resources
+https://docs.overturemaps.org/schema/reference/places/place/
+https://www.dbreunig.com/2025/06/10/let-the-model-write-the-prompt.html
+https://miptgirl.medium.com/programming-not-prompting-a-hands-on-guide-to-dspy-04ea2d966e6d
+https://sgino209.medium.com/programming-not-prompting-a-hands-on-guide-to-dspy-with-ollama-d829bda4d4a6
+https://dspy.ai/learn/programming/signatures/
+https://dspy.ai/api/signatures/Signature/
+https://dspy.ai/tutorials/math/
+https://dspy.ai/learn/evaluation/metrics/
